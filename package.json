@@ -1,6 +1,8 @@
 {
-  "name": "react-native-fontawesome-pro",
+  "name": "react-native-fontawesome-pro-local",
   "version": "2.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
@@ -29,10 +31,12 @@
     "@fortawesome/fontawesome-svg-core": "1.2.0"
   },
   "devDependencies": {
+    "@types/react-native": "^0.56.19",
     "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.2",
     "prop-types": "^15.5.7",
+    "react-native-svg": "^7.0.2",
     "react-test-renderer": "^16.2.0"
   },
   "peerDependencies": {
